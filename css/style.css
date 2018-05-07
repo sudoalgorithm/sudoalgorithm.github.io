@@ -1,0 +1,78 @@
+.profile_dp img{
+    content:url(../assets/10559931_488539101289461_5878030565438091645_n.jpg);
+    background: white;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin-top: 10%;
+    width: 230px;
+    height: 230px;
+    max-height: 230px;
+    max-width: 230px;
+}
+
+.profile_dp{
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.heading1{
+    text-align: center;
+    margin-top: 3%;
+}
+
+h2{
+    /*font-family: 'Handlee', cursive;*/
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.fa{
+    font-size: 450%;
+    
+}
+
+.stack_images{
+    text-align: center;
+}
+
+a {
+    color: black;
+    position:relative;
+    z-index:9999;
+}
+
+.stack_one{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    
+}
+
+.stack_one p{
+    font-family: 'Special Elite', cursive;
+    font-size: 15px;
+}
+
+.stack_two p{
+    font-family: 'Special Elite', cursive;
+    font-size: 15px;
+}
+
+.stack_two{
+    margin-top: 5%;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
