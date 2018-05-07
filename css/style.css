@@ -1,5 +1,4 @@
 .profile_dp img{
-    content:url(../assets/10559931_488539101289461_5878030565438091645_n.jpg);
     background: white;
     border-radius: 50%;
     -moz-border-radius: 50%;
@@ -14,7 +13,7 @@
 .profile_dp{
     text-align: center;
     overflow: hidden;
-    
+
 }
 
 .heading1{
@@ -36,7 +35,7 @@ p{
 
 .fa{
     font-size: 450%;
-    
+
 }
 
 .stack_images{
@@ -53,7 +52,7 @@ a {
     margin-top: 5%;
     margin-bottom: 2%;
     margin-left: 10%;
-    
+
 }
 
 .stack_one p{
@@ -74,5 +73,5 @@ a {
     position: absolute;
     width: 100%;
     height: 100%;
-    
+
 }
