@@ -1,6 +1,6 @@
 # Personal Website ;)
 
-## Technologies I played to build this
+## Technologies I played to build the webiste
 - [HTML5](https://www.w3schools.com/html/)
 - [CSS3](https://www.w3schools.com/css/)
 - [Vanila Javascript](https://www.w3schools.com/js/)
@@ -12,3 +12,6 @@
 - [Fontawesome](https://use.fontawesome.com)
 - [Github-Calendar](https://github.com/Bloggify/github-calendar)
 - [Google-Fonts](https://fonts.google.com/)
+
+## Hosting
+- I choose [Github](https://pages.github.com/)
