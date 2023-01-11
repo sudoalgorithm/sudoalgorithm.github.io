@@ -5,7 +5,7 @@
 - [CSS3](https://www.w3schools.com/css/)
 - [Vanila Javascript](https://www.w3schools.com/js/)
 
-## Web Lib and framework I played with 
+## Web Lib and framework I played with during the development of the webite
 - [Normalize.css](https://necolas.github.io/normalize.css/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Partical.js](https://vincentgarreau.com/particles.js/)
