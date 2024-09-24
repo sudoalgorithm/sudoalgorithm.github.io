@@ -1,6 +1,6 @@
 # Personal Website ;)
 
-## Technologies I played to build the webiste
+## Technologies I played with to build the webiste
 - [HTML5](https://www.w3schools.com/html/)
 - [CSS3](https://www.w3schools.com/css/)
 - [Vanila Javascript](https://www.w3schools.com/js/)
