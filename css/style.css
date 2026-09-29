@@ -25,7 +25,9 @@ body{
     margin-top: 3%;
 }
 
-h2{
+h1{
+    /* keep the spacing the heading had when it was an h2 */
+    margin: 1.78rem 0 1.424rem 0;
     /*font-family: 'Handlee', cursive;*/
     font-family: 'Cabin Sketch', cursive;
     font-size: 30px;
@@ -79,7 +81,7 @@ a {
     width:100%;
 }
 
-#heading3{
+.heading3{
     text-align: center;
     font-size: 20px;
     margin: 10px;

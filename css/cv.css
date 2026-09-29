@@ -1,0 +1,135 @@
+body{
+    background: #fff;
+    color: #222;
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.6;
+}
+
+.cv{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px 16px 48px;
+}
+
+a{
+    color: #222;
+}
+
+.cv-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-family: 'Special Elite', cursive;
+    margin-bottom: 32px;
+}
+
+footer.cv-nav{
+    margin: 48px 0 0;
+}
+
+.download{
+    border: 2px solid #222;
+    border-radius: 4px;
+    padding: 6px 14px;
+    text-decoration: none;
+}
+
+.download:hover{
+    background: #222;
+    color: #fff;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+h1{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 40px;
+    margin: 0;
+}
+
+.role,
+.contact{
+    font-family: 'Special Elite', cursive;
+    margin: 4px 0;
+}
+
+h2{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 26px;
+    border-bottom: 2px solid #222;
+    margin: 32px 0 12px;
+}
+
+h3{
+    font-size: 18px;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+h3 span,
+.title span{
+    font-family: 'Special Elite', cursive;
+    font-weight: normal;
+    font-size: 15px;
+    color: #555;
+}
+
+.title{
+    font-style: italic;
+    margin: 4px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+ul{
+    padding-left: 20px;
+    margin: 6px 0;
+}
+
+li{
+    margin-bottom: 4px;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 6px 16px;
+    margin: 0;
+}
+
+.skills dt{
+    font-weight: bold;
+}
+
+.skills dd{
+    margin: 0;
+}
+
+@media (max-width: 600px){
+    .skills{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .skills dd{
+        margin-bottom: 8px;
+    }
+}
+
+@media print{
+    .cv-nav{
+        display: none;
+    }
+    .cv{
+        padding: 0;
+    }
+}

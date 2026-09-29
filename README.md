@@ -7,7 +7,7 @@
 
 ## Web Lib and framework I played with during the development of the webite
 - [Normalize.css](https://necolas.github.io/normalize.css/)
-- [Bootstrap](https://getbootstrap.com/)
+- [Materialize](https://materializecss.com/)
 - [Partical.js](https://vincentgarreau.com/particles.js/)
 - [Fontawesome](https://use.fontawesome.com)
 - [Github-Calendar](https://github.com/Bloggify/github-calendar)
