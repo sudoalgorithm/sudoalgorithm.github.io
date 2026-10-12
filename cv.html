@@ -42,7 +42,7 @@
 
     <section>
         <h2>Summary</h2>
-        <p>Engineer with 8+ years building and shipping production systems for enterprise customers across financial services. Currently building agentic AI workflows that integrate core platform systems (Kubernetes, Terraform, SaltStack) with LLMs through custom Model Context Protocol (MCP) servers on Google Cloud. Experienced in embedded, customer-facing delivery at IBM, McKinsey, N26, and FPT Software — running technical discovery with business and engineering stakeholders, architecting cloud and data pipelines, and deploying into live, regulated environments. Strong in Python, Google Cloud Platform, observability, and turning prototypes into reliable production systems.</p>
+        <p>Engineer with 9+ years building and shipping production systems for enterprise customers in financial services and other regulated industries. Currently building AI platforms on Kubernetes: a sovereign LLM serving platform with llm-d and agentgateway, GPU sharing with HAMi, and agentic workflows that expose Kubernetes, Terraform, and SaltStack to LLM agents through custom Model Context Protocol (MCP) servers. Experienced in embedded, customer-facing delivery at IBM, McKinsey, N26, and FPT Software — running technical discovery with business and engineering stakeholders, architecting cloud landing zones and data pipelines, and deploying into live, regulated environments. Strong in Google Cloud Platform, Kubernetes, observability, and turning prototypes into reliable production systems.</p>
     </section>
 
     <section>
@@ -52,8 +52,11 @@
             <h3>FPT Software <span>Sep 2024 – Present</span></h3>
             <p class="title">Lead Platform Engineer</p>
             <ul>
-                <li>Built agentic AI workflows that connect core platform systems (Kubernetes, Terraform, SaltStack) to LLMs through custom Model Context Protocol (MCP) servers, letting engineers query and operate infrastructure in natural language and reducing time spent on routine platform tasks.</li>
+                <li>Built a sovereign LLM serving platform on Kubernetes with llm-d and agentgateway, self-hosting Hugging Face models with RAG for industry-specific use cases and keeping data and models within our own infrastructure.</li>
+                <li>Implemented GPU sharing for AI workloads on Kubernetes with HAMi, splitting GPUs into fractional allocations with memory and compute isolation so multiple models share a single device.</li>
+                <li>Built agentic AI workflows on custom Model Context Protocol (MCP) servers that expose Kubernetes, Terraform, and SaltStack as tools to LLM agents, letting engineers query and operate infrastructure in natural language and cutting time spent on platform tasks.</li>
                 <li>Architected a Kubernetes-based landing zone on Google Cloud with a multi-cluster Istio service mesh, supporting 0-to-scale infrastructure patterns with Terraform IaC and full observability (multi-cluster ELK, Grafana, Thanos, Prometheus).</li>
+                <li>Implemented Keycloak in production on Kubernetes with the Keycloak Operator, providing OIDC/OAuth2 single sign-on for platform services and migrating existing users with their password hashes preserved.</li>
                 <li>Led the implementation of Apache Airflow on Kubernetes to orchestrate and execute the ETL pipelines that process financial-statement data.</li>
                 <li>Led an SRE/DevOps transformation for a multinational bank, running application assessment and implementing a DORA-aligned deployment framework across hybrid infrastructure (OpenShift, IBM Power, IBM Mainframe).</li>
                 <li>Built a FinOps platform from scratch using OpenCost and Prometheus, achieving 20% infrastructure cost reduction across client implementations.</li>
@@ -118,14 +121,14 @@
     <section>
         <h2>Skills</h2>
         <dl class="skills">
-            <dt>AI &amp; GenAI</dt><dd>Claude, Hugging Face, Ollama, llm-d (distributed LLM inference on Kubernetes), agentgateway, Model Context Protocol (MCP) servers, agentic AI workflows, RAG (Milvus), Arabic LLMs (Fanar)</dd>
+            <dt>AI &amp; GenAI</dt><dd>Claude, Ollama, llm-d (distributed LLM inference on Kubernetes), agentgateway, Model Context Protocol (MCP) servers, agentic AI workflows, RAG (Milvus)</dd>
             <dt>Languages</dt><dd>Python, Go, Bash</dd>
             <dt>Cloud Platforms</dt><dd>Google Cloud Platform, Amazon Web Services, IBM Cloud</dd>
-            <dt>Kubernetes &amp; Orchestration</dt><dd>Kubernetes (kubeadm, kubespray, k3s, kind), Red Hat OpenShift, containerd, Docker, Helm, KubeVirt, Knative, etcd operations and quorum recovery, air-gapped clusters</dd>
+            <dt>Kubernetes &amp; Orchestration</dt><dd>Kubernetes (kubeadm, kubespray, k3s, kind), Red Hat OpenShift, containerd, Docker, Helm, KubeVirt, Knative, HAMi (GPU sharing), etcd operations and quorum recovery, air-gapped clusters</dd>
             <dt>Platform Engineering</dt><dd>Backstage, Cluster API, Crossplane, Kyverno, External Secrets Operator</dd>
             <dt>IaC &amp; Configuration</dt><dd>Terraform, OpenTofu, Ansible, SaltStack, Consul, Vault</dd>
-            <dt>Identity &amp; API Gateways</dt><dd>Keycloak (OIDC/OAuth2, Keycloak Operator, user migration with password-hash preservation), Kong, HAProxy, NGINX</dd>
-            <dt>Service Mesh &amp; Networking</dt><dd>Istio (sidecar and ambient modes, multi-cluster, VM workloads), site-to-site VPNs, client-to-site VPNs</dd>
+            <dt>Identity &amp; API Gateways</dt><dd>Keycloak (OIDC/OAuth2, Keycloak Operator, user migration with password-hash preservation), Kong</dd>
+            <dt>Service Mesh &amp; Networking</dt><dd>Istio (sidecar and ambient modes, multi-cluster, VM workloads), site-to-site VPNs, client-to-site VPNs, HAProxy, NGINX</dd>
             <dt>CI/CD &amp; GitOps</dt><dd>Argo CD, GitHub Actions, GitLab (self-managed), Jenkins, Tekton, Azure DevOps</dd>
             <dt>Linux &amp; Security Operations</dt><dd>RHEL, Red Hat Satellite, Tenable; fleet-wide OS patching and vulnerability remediation, zero-downtime rolling node maintenance</dd>
             <dt>Observability &amp; FinOps</dt><dd>Prometheus, Grafana, Thanos, ELK Stack, Datadog, OpenCost</dd>
